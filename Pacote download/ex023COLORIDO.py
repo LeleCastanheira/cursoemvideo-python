@@ -1,0 +1,6 @@
+n = int(input('Informe um número inteiro: '))
+print('Analisando o núemro...')
+print('{}Unidade: {}{}'.format('\033[1;4;36m', n//1%10, '\033[m'))
+print('{}Dezena: {}{}'.format('\033[1;4;7;36m', n//10%10, '\033[m'))
+print('{}Centena: {}{}'.format('\033[1;4;36m', n//100%10, '\033[m'))
+print('{}Milhar: {}{}'.format('\033[1;4;7;36m', n//1000%10, '\033[m'))
