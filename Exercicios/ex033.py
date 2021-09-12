@@ -1,3 +1,5 @@
+'''Faça um programa que leia três números e mostre qual é o maior e qual é o menor
+'''
 n1 = float(input('Primeiro valor: '))
 n2 = float(input('Segundo valor: '))
 n3 = float(input('Terceiro valor: '))
