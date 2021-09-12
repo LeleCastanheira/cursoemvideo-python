@@ -1,3 +1,4 @@
+# Escreva um programa que leia um valor em metros e o exiba convertido em taxa e quilômetro
 m = float(input('Uma distância em mentro: '))
 km = m / 1000
 hm = m / 100
